@@ -23,7 +23,7 @@ The system utilizes advanced locking mechanisms to maximize throughput and preve
 ### 3. Cache-Locality Optimization
 Matrix multiplication is notoriously memory-intensive. To optimize CPU cache hit rates:
 * The engine dynamically identifies the right-hand operand in a multiplication node and pre-loads it into shared memory in **Column-Major** order.
-* This transforms the complex $O(n^3)$ cell calculations into highly efficient, contiguous vector dot-products (`vecMatMul`), significantly reducing Cache Misses.
+* This transforms the complex matrix calculations into highly efficient, contiguous vector dot-products (`vecMatMul`), significantly reducing Cache Misses.
 
 ### 4. Graceful Shutdown & Poison Pill
 The system ensures memory safety and clean thread termination:
@@ -46,11 +46,27 @@ The system ensures memory safety and clean thread termination:
 
 ### Prerequisites
 * Java Development Kit (JDK) 8 or higher.
+* Git (for cloning the repository).
+
+### Installation & Build
+1. Clone the repository to your local machine:
+   ```bash
+   git clone [https://github.com/YourUsername/Linear-Algebra-Engine.git](https://github.com/YourUsername/Linear-Algebra-Engine.git)
+   cd Linear-Algebra-Engine
+   ```
+
+2. Compile the source code:
+   *(If you are using standard `javac` from the terminal)*
+   ```bash
+   mkdir bin
+   javac -d bin src/**/*.java
+   ```
+   *(Note: If you are using an IDE like VS Code, Eclipse, or IntelliJ, you can simply build the project using the IDE's built-in compiler and export it as an executable JAR file named `LAE.jar`).*
 
 ### Input Format
-The engine accepts a JSON file representing the mathematical expression tree. 
+The engine requires a JSON file representing the mathematical expression tree. 
 
-**Example (`input.json`):** Computing (A + B) * C
+**Example (`input.json`):** Computing `(A + B) * C`
 ```json
 {
   "operator": "*",
@@ -65,3 +81,20 @@ The engine accepts a JSON file representing the mathematical expression tree.
     {"matrix": [[1, 0], [0, 1]]}
   ]
 }
+```
+
+### Execution
+Once compiled into a `.jar` file, run the engine from your terminal by providing the input JSON path and the desired output path:
+
+```bash
+java -jar LAE.jar <path_to_input.json> <path_to_output.json>
+```
+
+---
+
+## 🧪 Testing & Edge Cases
+
+The system was rigorously tested against various edge cases to ensure mathematical accuracy and system stability:
+* **Dimension Mismatch Validation:** Safely intercepts illegal operations (e.g., adding a 2x2 matrix to a 3x3 matrix) and throws descriptive `IllegalArgumentException`s.
+* **Deeply Nested Expressions:** Capable of resolving heavily nested trees without stack overflow issues.
+* **Single Element / Unary Operations:** Gracefully handles 1x1 matrices and operations like `NEGATE` and `TRANSPOSE` safely across multiple concurrent threads.
