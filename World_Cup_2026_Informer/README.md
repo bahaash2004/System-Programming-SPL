@@ -58,4 +58,64 @@ Open a third terminal
 cd client
 make clean
 make
+./bin/StompWCIClient 127.0.0.1 7777
 ```
+## 💻 Usage & Commands (Client Interface)
+
+Once the C++ client is running, you can use the following commands:
+
+**1. Login to the server:**
+```bash
+login 127.0.0.1:7777 <username> <password>
+# Example: login 127.0.0.1:7777 bahaa 1234
+2. Join a channel (Subscribe):
+```bash
+join <channel_name>
+# Example: join Germany_Japan
+```
+3. Report events from a JSON file:
+Parses a JSON file containing game events and sends them to the subscribed channel.
+```bash
+report data/events1.json
+```
+4. Leave a channel (Unsubscribe):
+```bash
+exit <channel_name>
+# Example: exit Germany_Japan
+```
+5. Logout and Disconnect:
+Safely disconnects from the server, waiting for a server receipt before closing the socket.
+```bash
+logout
+```
+📡 STOMP Protocol Implementation
+The system fully implements a subset of the STOMP protocol for internal client-server communication. The underlying frames exchanged over TCP include:
+
+Client-to-Server Frames:
+CONNECT: Initiates a session with the server.
+
+SUBSCRIBE: Registers the client to a specific topic.
+
+UNSUBSCRIBE: Removes the client from a topic.
+
+SEND: Publishes a message to a specific topic.
+
+DISCONNECT: Safely terminates the session with a receipt.
+
+Server-to-Client Frames:
+CONNECTED: Acknowledges a successful login.
+
+MESSAGE: Broadcasts a message to all subscribed clients.
+
+RECEIPT: Confirms that a client's request was processed.
+
+ERROR: Sent when a protocol violation occurs, followed by connection termination.
+
+🧠 Design Highlights
+Dependency Injection: The server uses factories to inject protocol and encoder/decoder logic, keeping the generic Reactor/TPC code clean (Open/Closed Principle).
+
+Actor Thread Pool: Work is dispatched to an Actor Thread Pool, ensuring that a single client is only handled by one thread at a time, preventing message reordering while maintaining high concurrency.
+
+Concurrency Handling: ConcurrentHashMap and ConcurrentLinkedQueue are used extensively to manage active clients and subscriptions safely without unnecessary locking overhead.
+
+Developed as part of the Systems Programming course at Ben-Gurion University of the Negev.
