@@ -50,7 +50,7 @@ The system ensures memory safety and clean thread termination:
 ### Input Format
 The engine accepts a JSON file representing the mathematical expression tree. 
 
-**Example (`input.json`):** Computing $(A + B) \times C$
+**Example (`input.json`):** Computing (A + B) * C
 ```json
 {
   "operator": "*",
