@@ -1,0 +1,25 @@
+{
+	"name": "BGU SPL Student Workspace",
+	"image": "ghcr.io/bguspl/student-env:latest",
+	"remoteUser": "spl",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-vscode.cpptools-extension-pack",
+				"vscjava.vscode-java-pack",
+				"ms-python.python",
+				"mtxr.sqltools",
+				"mtxr.sqltools-driver-sqlite",
+				"ms-vsliveshare.vsliveshare"
+			],
+			"settings": {
+				"terminal.integrated.defaultProfile.linux": "bash"
+			}
+		}
+	},
+	"mounts": [
+		"source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached"
+	],
+	"workspaceFolder": "/workspace",
+	"postCreateCommand": "bash -lc 'if [ -f requirements.txt ]; then pip install -r requirements.txt; fi; echo \"\"; echo \"═══════════════════════════════════════════════════════════\"; echo \"  Welcome to BGU SPL Student Env (v${STUDENT_ENV_VERSION})\"; echo \"═══════════════════════════════════════════════════════════\"; echo \"\"; echo \"Available tools:\"; echo \"  • C/C++: gcc-13, g++-13, clang, cmake\"; echo \"  • Java: OpenJDK 21 (Temurin)\"; echo \"  • Python: 3.12\"; echo \"  • SQLite: sqlite3\"; echo \"\"; echo \"✅ Container is ready! Happy coding! 🚀\"; echo \"\"'"
+}

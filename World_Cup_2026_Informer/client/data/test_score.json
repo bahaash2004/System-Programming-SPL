@@ -1,0 +1,20 @@
+{
+    "team a": "TeamA",
+    "team b": "TeamB",
+    "events": [
+        {
+            "event name": "Goal 1", "time": 10,
+            "general game updates": {},
+            "team a updates": {"score": "1"},
+            "team b updates": {},
+            "description": "1-0"
+        },
+        {
+            "event name": "Goal 2", "time": 20,
+            "general game updates": {},
+            "team a updates": {"score": "2"},
+            "team b updates": {},
+            "description": "2-0"
+        }
+    ]
+}

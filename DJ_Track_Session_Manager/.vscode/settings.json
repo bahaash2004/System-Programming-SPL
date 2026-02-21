@@ -1,0 +1,64 @@
+{
+    // Disable GitHub Copilot
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "cpp": false,
+        "c": false,
+        "h": false
+    },
+    "github.copilot.advanced": {
+        "inlineSuggestEnable": false
+    },
+    
+    // Disable inline suggestions and completions from AI
+    "editor.inlineSuggest.enabled": false,
+    "editor.quickSuggestions": {
+        "other": false,
+        "comments": false,
+        "strings": false
+    },
+    
+    // Disable snippets that might use AI
+    "editor.snippetSuggestions": "none",
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    
+    // Disable IntelliCode AI-assisted completions
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.suggestSelection": "first",
+    
+    // Disable workspace trust to prevent extensions from running
+    "extensions.ignoreRecommendations": true,
+    
+    // C++ specific settings
+    "C_Cpp.intelliSenseEngine": "default",
+    "C_Cpp.autocomplete": "disabled",
+    "C_Cpp.errorSquiggles": "enabled",
+    
+    // File associations
+    "files.associations": {
+        "*.h": "cpp",
+        "*.cpp": "cpp",
+        "*.txt": "plaintext"
+    },
+    
+    // Editor settings for academic integrity
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.tabCompletion": "off",
+    "editor.wordBasedSuggestions": "off",
+    "editor.suggest.showWords": false,
+    
+    // Disable telemetry and online features
+    "telemetry.telemetryLevel": "off",
+    "workbench.enableExperiments": false,
+    
+    // Build and debug settings
+    "files.eol": "\n",
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    
+    // Terminal settings
+    "terminal.integrated.defaultProfile.linux": "fish"
+}

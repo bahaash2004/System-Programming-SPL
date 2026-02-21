@@ -1,0 +1,153 @@
+# DJ Track Library Manager - Auto-Generated Configuration
+# Generated from 1001tracklists.com data
+
+# Application Settings
+app_name=DJ Track Library Manager
+version=1.0
+
+# Track Library Definition
+# Format: library_track_N=TYPE,title,{artist1;artist2;...;},duration_seconds,bpm,extra_params...
+
+library_track_1=MP3,Right Back,{Yuri Kane;},374,125,256,1
+library_track_2=WAV,Concrete Angel,{Gareth Emery;},306,122,44100,24
+library_track_3=MP3,Saving Light,{Gareth Emery;STANDERWICK;},293,130,320,1
+library_track_4=MP3,No One On Earth,{Above & Beyond;},269,135,256,1
+library_track_5=MP3,Lighter Than Air,{MaRLo;Feenixpawl;},273,128,192,1
+library_track_6=MP3,Tuvan,{Gaia (NL);},287,125,192,1
+library_track_7=MP3,Anahera,{Ferry Corsten pres. Gouryella;},399,140,256,1
+library_track_8=WAV,U,{Gareth Emery;},221,137,96000,16
+library_track_9=MP3,Southern Sun,{Paul Oakenfold;},257,133,192,1
+library_track_10=MP3,Take This,{Bryan Kearney;Out Of The Dust;},278,135,192,1
+library_track_11=MP3,Intense,{Armin van Buuren;},335,128,320,1
+library_track_12=MP3,Destination (ASOT 2024 Anthem),{Armin van Buuren;Ferry Corsten;Rank 1;Ruben de Ronde;},376,137,320,1
+library_track_13=MP3,What Took You So Long,{Armin van Buuren;Gryffin;},283,125,320,1
+library_track_14=MP3,Just As You Are,{Rising Star;},203,139,320,1
+library_track_15=MP3,The Air I Breathe,{Richard Durand;Christina Novelli;},336,124,320,1
+library_track_16=MP3,For All Time,{Armin van Buuren;Aly & Fila;},421,133,192,1
+library_track_17=MP3,We Control The Sunlight,{Aly & Fila;},423,121,192,1
+library_track_18=MP3,Blueprint,{Ferry Corsten;},312,130,256,1
+library_track_19=MP3,Homeward,{Ferry Corsten;},324,136,192,1
+library_track_20=MP3,We're Not Going Home,{Ferry Corsten;Ilan Bluestone;},289,132,192,1
+library_track_21=MP3,Lemme Take You,{Ferry Corsten;},404,122,320,1
+library_track_22=WAV,Bloodstream,{Ferry Corsten;Ruben de Ronde;},356,135,48000,16
+library_track_23=MP3,Rock Your Body Rock,{Ferry Corsten;},340,126,256,1
+library_track_24=MP3,Voema,{Ferry Corsten;},285,121,192,1
+library_track_25=MP3,Not Coming Down,{Ferry Corsten;},318,132,192,1
+library_track_26=MP3,Mo Chara,{Ferry Corsten;Ciaran McAuley;},312,127,256,1
+library_track_27=MP3,Brain Box,{Ferry Corsten;},345,130,192,1
+library_track_28=MP3,Sweet Sorrow,{Ferry Corsten;},319,133,256,1
+library_track_29=MP3,Ligaya,{Ferry Corsten pres. Gouryella;},322,123,256,1
+library_track_30=WAV,Drum's A Weapon,{Ferry Corsten;},240,130,48000,16
+library_track_31=MP3,Black Thunderclouds (Lost Frequencies 2025 Intro),{Lost Frequencies;Tom Odell vs. LSD;Sia;Diplo;Labrinth;},286,139,256,1
+library_track_32=WAV,ID1,{Lost Frequencies;},276,127,44100,16
+library_track_33=MP3,Sun Is Shining,{Lost Frequencies;},254,126,256,1
+library_track_34=WAV,Are You With Me,{Lost Frequencies;},188,123,44100,24
+library_track_35=MP3,Worry About Me,{Ellie Goulding;blackbear;},266,130,256,1
+library_track_36=WAV,ID2,{ID;},311,131,44100,16
+library_track_37=WAV,Love Is The Only Thing,{Lost Frequencies;},381,140,48000,16
+library_track_38=WAV,Kick The Nation,{Lost Frequencies;Pickle;},246,132,48000,16
+library_track_39=MP3,Summer Skies (I Love To Cry),{Lost Frequencies;Argy;},369,127,256,1
+library_track_40=WAV,Kesariya,{Pritam;Arijit Singh;},200,138,48000,16
+library_track_41=MP3,Head Down,{Lost Frequencies;},339,126,256,1
+library_track_42=WAV,The Feeling,{Lost Frequencies;},446,123,48000,16
+library_track_43=MP3,Just Wanna Know,{Lost Frequencies;Declan J Donovan;},426,133,192,1
+library_track_44=WAV,Let Me Blow Ya Mind (Netsky Bootleg),{Eve;},435,129,48000,16
+library_track_45=MP3,Where Are You Now,{Lost Frequencies;},181,136,320,1
+library_track_46=MP3,Voodoo People,{The Prodigy;},391,120,256,1
+library_track_47=MP3,Freestyler (Rock The Microphone),{Lost Frequencies;Bomfunk MC's;},223,138,192,1
+library_track_48=WAV,High Hopes,{Agents Of Time;Lost Frequencies;},242,124,96000,24
+library_track_49=MP3,Reality,{Lost Frequencies;},267,120,256,1
+library_track_50=MP3,Black Friday (Pretty Like The Sun),{Lost Frequencies;},229,140,256,1
+library_track_51=MP3,Innerbloom (RUMPUS Edit),{RÜFÜS DU SOL;},253,123,320,1
+library_track_52=MP3,Timeless,{The Weeknd;Playboi Carti;},255,135,256,1
+library_track_53=MP3,Sweet Disposition (A Moment A Love),{Lost Frequencies;The Temper Trap;},431,123,320,1
+library_track_54=MP3,Dance In The Sunlight (Deluxe Version),{Lost Frequencies;},371,121,256,1
+library_track_55=WAV,ENEMY,{Third ≡ Party;Mark Roma;},286,132,44100,24
+library_track_56=MP3,Starlight (Keep Me Afloat),{Martin Garrix;DubVision;},466,138,256,1
+library_track_57=MP3,Together,{Martin Garrix;Matisse;Sadko;},198,121,320,1
+library_track_58=MP3,Lions In The Wild (Acappella),{Martin Garrix;Third ≡ Party;},365,135,256,1
+library_track_59=MP3,Nation vs. Won't Let You Go vs. Miracle vs. Callin,{Third ≡ Party;Arias vs. Martin Garrix;Matisse;Sadko;John Martin vs. Calvin Harris;Ellie Goulding vs. Sebastian Ingrosso;Alesso;},243,122,192,1
+library_track_60=MP3,Calling,{Sebastian Ingrosso;Alesso;},257,138,256,1
+library_track_61=MP3,Nation,{Third ≡ Party;Arias;},304,120,320,1
+library_track_62=MP3,Won't Let You Go,{Martin Garrix;Matisse;Sadko;},224,123,320,1
+library_track_63=MP3,Miracle (Acappella),{Calvin Harris;Ellie Goulding;},420,134,256,1
+library_track_64=MP3,Empty,{Martin Garrix;DubVision;},292,122,320,1
+library_track_65=MP3,Arrival,{Third ≡ Party;},229,128,320,1
+library_track_66=MP3,Move,{Adam Port;Stryv;},348,126,256,1
+library_track_67=MP3,Sweet Nothing (Acappella),{Calvin Harris;},316,120,256,1
+library_track_68=WAV,Believe,{Third ≡ Party;},261,129,44100,24
+library_track_69=MP3,Higher,{Matisse;Sadko;},351,137,320,1
+library_track_70=MP3,Follow Your Heart,{DubVision;},318,131,192,1
+library_track_71=WAV,Breathe,{The Prodigy;},306,126,48000,24
+library_track_72=MP3,Atom (MORGANJ Edit),{Nari;Milani;},210,129,256,1
+library_track_73=MP3,Take Me There,{SICK INDIVIDUALS;Matisse;Sadko;Third ≡ Party;},297,128,256,1
+library_track_74=MP3,Verve vs. Somebody That I Used To Know (Matisse Sadko Edit),{Matisse;Sadko vs. Gotye;Kimbra;},223,129,256,1
+library_track_75=MP3,Somebody That I Used To Know (Acappella),{Gotye;},250,130,192,1
+library_track_76=MP3,Verve,{Matisse;Sadko;},469,135,256,1
+library_track_77=WAV,Hero vs. Escape (DubVision Mashup),{Martin Garrix;JVKE;DubVision vs. Kx5;Hayla;John Summit;},330,126,44100,24
+library_track_78=MP3,Escape,{Kx5;},359,138,256,1
+library_track_79=MP3,Hero,{Martin Garrix;JVKE;},379,126,192,1
+library_track_80=MP3,Where You Are (Acappella),{John Summit;},218,123,320,1
+library_track_81=WAV,Lions In The Wild,{Martin Garrix;Third ≡ Party;},472,122,96000,24
+library_track_82=MP3,ID3,{Matisse;Sadko;},375,122,256,1
+library_track_83=MP3,The Sun Always Shines On T.V.,{a-ha;},287,140,192,1
+library_track_84=MP3,ID4,{Matisse;Sadko;Vion Konger;},211,138,256,1
+library_track_85=MP3,Now That I've Found You (Acappella),{Martin Garrix;},267,125,320,1
+library_track_86=WAV,Committed To Sparkle Motion vs. A Sky Full Of Stars (Dubvision Edit),{Discopolis;Dubvision vs. Coldplay;},242,129,96000,24
+library_track_87=MP3,A Sky Full Of Stars,{Coldplay;},312,126,256,1
+library_track_88=WAV,Committed To Sparkle Motion,{Discopolis;},186,127,48000,16
+library_track_89=WAV,Harmony vs. Underneath It All (Matisse Sadko Mashup),{Matisse;Sadko vs. Mike Posner;},281,122,44100,24
+library_track_90=WAV,Underneath It All,{Mike Posner;},254,139,44100,24
+library_track_91=WAV,Harmony,{Matisse;Sadko;},341,135,96000,24
+library_track_92=MP3,Rise Again vs. In The Name Of Love (DubVision Mashup),{DubVision vs. Martin Garrix;Bebe Rexha;},208,135,192,1
+library_track_93=MP3,In The Name Of Love (Acappella),{Martin Garrix;Bebe Rexha;},349,136,256,1
+library_track_94=WAV,Rise Again,{DubVision;},204,123,48000,24
+library_track_95=MP3,Keep On Loving You vs. Lions In The Wild (Third Party Mashup),{Martin Garrix;Third ≡ Party;Max McElligott;},382,137,320,1
+library_track_96=WAV,Keep On Loving You,{Third ≡ Party;},421,126,44100,24
+library_track_97=MP3,Cinema (Acappella),{Benny Benassi;},379,121,256,1
+library_track_98=MP3,Don't You Worry Child vs. New Memories vs. Live Forever (AFROJACK Edit),{Swedish House Mafia;John Martin vs. DubVision;AFROJACK vs. Third ≡ Party;Max McElligott;},477,140,192,1
+library_track_99=WAV,Don't You Worry Child,{Swedish House Mafia;},204,134,44100,16
+library_track_100=WAV,Live Forever,{Third ≡ Party;},261,127,96000,24
+library_track_101=MP3,New Memories,{DubVision;AFROJACK;},345,139,320,1
+library_track_102=WAV,Himalaya vs. Rolling In The Deep (Matisse Sadko Mashup),{Matisse;Sadko vs. Adele;},234,121,44100,16
+library_track_103=MP3,Rolling In The Deep (Acappella),{Adele;},200,137,320,1
+library_track_104=MP3,Himalaya,{Matisse;Sadko;},345,121,320,1
+library_track_105=MP3,Sweet Dreams (Are Made of This),{Eurythmics;},310,138,320,1
+library_track_106=WAV,Sex Love  Water,{Armin van Buuren;},222,128,44100,24
+library_track_107=MP3,Mia,{David Tort;},479,127,256,1
+library_track_108=WAV,Wake Me Up (Acappella),{Avicii;},320,138,44100,24
+library_track_109=MP3,Wherever You Are,{Martin Garrix;DubVision;},403,140,256,1
+library_track_110=WAV,Carry You,{Martin Garrix;Third ≡ Party;},467,131,44100,16
+library_track_111=MP3,Butterflies,{Martin Garrix;Matisse;Sadko;},409,128,320,1
+
+# ==================== Cache Settings ====================
+# Smart cache size based on 111 tracks across 3 playlists
+# (max playlist: 61 tracks → cache: ~20 + base)
+controller_cache_size=16
+
+# Test Scenarios - uncomment one line below to test different cache behaviors:
+# controller_cache_size=13  # Conservative: Minimal memory, more cache misses
+# controller_cache_size=16  # Aggressive: Higher memory, fewer cache misses
+controller_cache_size=4   # Stress test: Very limited cache (high eviction rate)
+# controller_cache_size=16  # Performance test: Maximum cache (minimal evictions)
+
+# ==================== Mixing Settings ====================
+# Smart BPM tolerance based on track distribution (stddev: 6.2, range: 20)
+# Ensures ~85-90% of tracks are mutually mixable
+bpm_tolerance=9
+auto_sync=true
+
+# Test Scenarios - uncomment to test different mixing behaviors:
+# bpm_tolerance=6  # Strict mixing: Only very close BPM matches (~70% compatibility)
+bpm_tolerance=14  # Relaxed mixing: Wide BPM range (~95% compatibility)
+# bpm_tolerance=5   # Very strict: Professional DJ tight mixing
+# bpm_tolerance=20  # Very relaxed: Maximum flexibility for genre blending
+# auto_sync=false   # Disable auto-sync to test manual BPM management
+
+# ==================== Playlists ====================
+# Format: playlistname=index_1,index_2,...,index_m
+# Each number references a library_track_N defined above
+
+armin_van_buuren_ASOT_1250=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30 # https://1001.tl/1td4chr1
+lost_frequencies_tomorrowland_2025_w1=31,32,33,34,35,36,37,38,39,40,36,41,42,42,43,44,45,45,46,47,48,49,50,50,51,52,53,54 # https://1001.tl/2czk7g9k
+# dubvision_matisse_sadko_third_party_TML_Brasil_2025=55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,36,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,58,96,97,98,99,100,101,56,102,103,104,105,106,107,108,100,109,110,111 # https://1001.tl/2dxu9w91

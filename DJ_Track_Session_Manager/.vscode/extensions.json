@@ -1,0 +1,18 @@
+{
+    "recommendations": [
+        "ms-vscode.cpptools",
+        "ms-vscode.cpptools-extension-pack"
+    ],
+    "unwantedRecommendations": [
+        "github.copilot",
+        "github.copilot-chat",
+        "visualstudioexptteam.vscodeintellicode",
+        "visualstudioexptteam.intellicode-api-usage-examples",
+        "tabnine.tabnine-vscode",
+        "amazonwebservices.aws-toolkit-vscode",
+        "codiumai-fork.codiumai",
+        "sourcegraph.cody-ai",
+        "continue.continue",
+        "cursor.cursor"
+    ]
+}
