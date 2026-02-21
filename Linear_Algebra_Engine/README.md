@@ -49,19 +49,22 @@ The system ensures memory safety and clean thread termination:
 * Git (for cloning the repository).
 
 ### Installation & Build
-1. Clone the repository to your local machine:
-   ```bash
-   git clone [https://github.com/YourUsername/Linear-Algebra-Engine.git](https://github.com/YourUsername/Linear-Algebra-Engine.git)
-   cd Linear-Algebra-Engine
-   ```
 
-2. Compile the source code:
-   *(If you are using standard `javac` from the terminal)*
-   ```bash
-   mkdir bin
-   javac -d bin src/**/*.java
-   ```
-   *(Note: If you are using an IDE like VS Code, Eclipse, or IntelliJ, you can simply build the project using the IDE's built-in compiler and export it as an executable JAR file named `LAE.jar`).*
+**Step 1: Clone the repository to your local machine**
+
+```bash
+git clone [https://github.com/YourUsername/Linear-Algebra-Engine.git](https://github.com/YourUsername/Linear-Algebra-Engine.git)
+cd Linear-Algebra-Engine
+```
+
+**Step 2: Compile the source code**
+*(If you are using standard `javac` from the terminal)*
+
+```bash
+mkdir bin
+javac -d bin src/**/*.java
+```
+*(Note: If you are using an IDE like VS Code, Eclipse, or IntelliJ, you can simply build the project using the IDE's built-in compiler and export it as an executable JAR file named `LAE.jar`).*
 
 ### Input Format
 The engine requires a JSON file representing the mathematical expression tree. 
